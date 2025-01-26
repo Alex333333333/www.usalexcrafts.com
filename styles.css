@@ -1,0 +1,38 @@
+/* Base styles remain the same */
+
+/* Responsive Design Enhancements */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header img {
+        max-width: 250px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    ul li {
+        margin: 5px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    body {
+        font-size: 0.9rem;
+    }
+}

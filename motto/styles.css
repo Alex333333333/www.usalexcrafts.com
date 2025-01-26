@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .poster {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .motto {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Adds a smooth look */
+  }
+  
+  h3 {
+    font-size: 1.5rem; /* Scales better on mobile */
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  strong {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  /* Mobile Responsive Design */
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 1.25rem;
+    }
+  
+    p {
+      font-size: 0.9rem;
+    }
+  
+    .poster {
+      padding: 15px;
+    }
+  }
+  

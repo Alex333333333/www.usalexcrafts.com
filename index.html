@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USALEXCRAFTS LLC - Your Trusted Helper</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 10px 0;
+        }
+
+        header p {
+            margin: 5px 0 0;
+        }
+
+        /* Sections */
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        /* Contact Section */
+        .contact {
+            margin-top: 20px;
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .contact p {
+            margin: 5px 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f4f4f4;
+        }
+
+        /* Links */
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold; /* Making the font bold to match */
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Map */
+        #map {
+            height: 400px;
+            width: 100%;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <em>"Transforming Houses into Homes, One Project at a Time... <br> by USALEXCRAFTS"</em>
+        </h1>
+        <p>Your Trusted Home Improvement Service</p>
+    </header>
+
+    <section>
+        <h2>About Us</h2>
+        <p>
+            At USALEXCRAFTS, we specialize in top-quality home improvement services, including window installations, door replacements, trimming, and general handyman services. 
+            <a href="http://www.usalexcrafts.com/about">Learn more about our origins.</a>
+        </p>
+    </section>
+
+    <section>
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Home Improvements:</strong> From kitchen and bathroom remodels to full-home renovations.</li>
+            <li><strong>Windows & Doors:</strong> Professional installation and replacement for energy efficiency and curb appeal.</li>
+            <li><strong>Trimming & Molding:</strong> Custom trim and moldings to give your home a polished look.</li>
+            <li><strong>Handyman Services:</strong> Quick, reliable solutions for your everyday maintenance needs.</li>
+        </ul>
+    </section>
+
+    <!-- Added Projects Section -->
+    <section>
+        <h2>Our Projects</h2>
+        <p>
+            Explore our recent home improvement projects, including windows, doors, trimming, and much more. Check out the gallery to see our craftsmanship in action.
+        </p>
+        <a href="https://www.usalexcrafts.com/pictures" target="_blank">
+            View Our Projects Gallery
+        </a>
+    </section>
+
+    <section>
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li><strong>Local Expertise:</strong> Based in Cherry Hill, NJ, serving the Greater Philadelphia, Tri-State Area.</li>
+            <li><strong>Simple Booking:</strong> Request services easily through our online form.</li>
+            <li><strong>Experienced Professionals:</strong> Our team brings years of experience to every project.</li>
+        </ul>
+    </section>
+
+    <section id="map"></section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Business Name:</strong> USALEXCRAFTS LLC</p>
+        <p><strong>Phone:</strong> <a href="tel:+12153955233">(215) 395-5233</a></p>
+        <p><strong>Email:</strong> <a href="mailto:alexander.usov@usalexcrafts.com">alexander.usov@usalexcrafts.com</a></p>
+        <p><strong>Address:</strong> 37 Winding Way, Cherry Hill, NJ 08002</p>
+        <p><strong>Instagram:</strong> <a href="https://instagram.com" target="_blank">Visit us on Instagram</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 USALEXCRAFTS LLC. Fully insured and proudly serving Delaware, Pennsylvania, and New Jersey.</p>
+    </footer>
+
+    <script>
+        function initMap() {
+            const addressLocation = { lat: 39.9348, lng: -75.0202 };
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: addressLocation,
+            });
+            const marker = new google.maps.Marker({
+                position: addressLocation,
+                map: map,
+            });
+        }
+    </script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkzj_G2WScG3GwuZ8MKEY1ZefK7o41qx8&callback=initMap"></script>
+</body>
+</html>
+
+
+
+
+

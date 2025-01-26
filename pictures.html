@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .caption {
+            text-align: center;
+            margin-top: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        @media (max-width: 600px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Project Gallery</h1>
+    <div class="gallery">
+
+        <div>
+            <img src="./pictures/IMG_7328.JPG" alt="Columns Installation">
+            <p class="caption"> PVC Columns Installation</p>
+        </div>
+
+        <div>
+            <img src="./pictures/IMG_6719.JPG" alt="Door Installation">
+            <p class="caption"> Single Door Installation</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_7220.JPG" alt="Window Installation">
+            <p class="caption">Window Installation</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_6751.JPG" alt="Window Installation">
+            <p class="caption">Window Installation</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_7245.JPG" alt="Bathroom Renovation">
+            <p class="caption">Bathroom Renovation</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_6502.JPG" alt="Bay Window">
+            <p class="caption">Bay Window</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_7222.JPG" alt="Patio Door">
+            <p class="caption">Patio Door</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_4985.JPG" alt="Single Door">
+            <p class="caption">Single Door</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_4980.JPG" alt="Fence">
+            <p class="caption">Fence</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_4358.JPG" alt="Window Installation">
+            <p class="caption">Window Installation</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_6409.JPG" alt="Fence">
+            <p class="caption">Fence</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_6412.JPG" alt="Fence">
+            <p class="caption">Fence</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_2207.JPG" alt="Soffit">
+            <p class="caption">Soffit</p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_7325.JPG" alt="Bed Picture in Room">
+            <p class="caption"> Modern Style Queen Size Bed </p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_7327.JPG" alt="Window Picture">
+            <p class="caption"> Windows' Aluminum Trim with J Channel </p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_7309.JPG" alt="Tv Mount Picture">
+            <p class="caption"> TV and Shelving Mount  </p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_7335.JPG" alt="Diploma Picture">
+            <p class="caption"> Custom Red Maple Diploma Frame  </p>
+        </div>
+        <div>
+            <img src="./pictures/IMG_7312.JPG" alt="Map Picture">
+            <p class="caption"> Custom Map Frame  </p>
+        </div>
+    </div>
+</body>
+</html>
